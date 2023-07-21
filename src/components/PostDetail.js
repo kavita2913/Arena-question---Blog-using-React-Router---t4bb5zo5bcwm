@@ -1,6 +1,6 @@
 import React from 'react';
 
 export default function PostDetail({ match }) {
-  // Complete the function
+  const postId = match.params.id;
+  return <h1>Post Detail: {postId}</h1>;
 }
-  
